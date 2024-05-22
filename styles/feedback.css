@@ -1,0 +1,41 @@
+.form_{
+    margin-left: 480px;
+}
+
+.inputBox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputBox input {
+    padding-left: 40px; /* Adjust icon position */
+    height: 40px;
+    width: 330px;
+}
+.inputBox .fas {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; 
+}
+textarea.suggestions {
+    width: 330px; 
+    height: 100px; 
+    resize: vertical; 
+    overflow-y: auto; 
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background:rgb(247, 131, 77) ;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}

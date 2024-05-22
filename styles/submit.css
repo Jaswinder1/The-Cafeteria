@@ -1,0 +1,30 @@
+main{
+    margin-top: 200px;
+}
+main img{
+    margin-left: 650px;
+    width: 200px;
+    height: 200px;
+}
+main p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.thankyou{
+    display: flex;
+    flex-direction: column;
+
+}
+.thankyou span{
+    color: rgb(247, 131, 77);
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: 50px;
+}
+.footer{
+    margin-top: 100px;
+}

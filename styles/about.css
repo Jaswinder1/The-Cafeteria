@@ -1,0 +1,51 @@
+body{
+    background-image:url('../img/abt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(150, 85, 0, 0.527);
+    /* width:1000px; */
+    font-size: 17px;
+}
+#bg_img{
+    background-image: url('../img/abt.jpg');
+    margin: auto;
+    padding: auto;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    background:#13131a ;
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+
